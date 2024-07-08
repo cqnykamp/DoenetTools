@@ -194,7 +194,7 @@ export function Home() {
             <GridItem area="Description" margin="10vh 0 0 10vh">
               {heroTextAndActions()}
             </GridItem>
-            <GridItem area="Video" p="40px">
+            <GridItem area="Video" m="30px">
               <Suspense fallback={"Loading..."}>
                 {/* Does this lazy loading do anything? */}
                 <Box ml="30px">
@@ -208,7 +208,7 @@ export function Home() {
           <SimpleGrid columns={[1, 1, 2, 2, 2]} spacing="10px">
             <Suspense fallback={"Loading..."}>
               {/* Does this lazy loading do anything? */}
-              <Box ml="30px">
+              <Box pl="30px">
                 <HomeIntroVideo />
               </Box>
             </Suspense>
